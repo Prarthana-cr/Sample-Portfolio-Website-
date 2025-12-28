@@ -1,0 +1,44 @@
+/* Import stylish italic font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #eaeaea;
+}
+
+/* Sections / Boxes */
+section {
+    padding: 40px;
+    margin: 20px;
+    background: #111111;
+    border-radius: 10px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #ffffff;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+}
+
+/* Project spacing */
+.project {
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    color: #4da3ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
